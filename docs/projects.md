@@ -18,7 +18,7 @@ hide:
 
     ---
 
-    [:simple-readthedocs: Documentation](#){ .md-button .md-button--project }
+    [:simple-readthedocs: Documentation](https://orange-cloudavenue.github.io/terraform-plugin-framework-validators/){ .md-button .md-button--project }
 
 - :simple-terraform:{ .lg .middle .terraform } __Terraform PlanModifiers__
 
@@ -28,7 +28,7 @@ hide:
 
     ---
 
-    [:simple-readthedocs: Documentation](#){ .md-button .md-button--project }
+    [:simple-readthedocs: Documentation](https://orange-cloudavenue.github.io/terraform-plugin-framework-planmodifiers/){ .md-button .md-button--project }
 
 - :simple-terraform:{ .lg .middle .terraform } __Terraform SuperSchema__
 
@@ -38,17 +38,13 @@ hide:
 
     ---
 
-    [:simple-readthedocs: Documentation](#){ .md-button .md-button--project }
+    [:simple-readthedocs: Documentation](https://orange-cloudavenue.github.io/terraform-plugin-framework-superschema/){ .md-button .md-button--project }
 
 - :simple-terraform:{ .lg .middle .terraform } __Terraform SuperTypes__
 
     ---
 
     [:simple-github: SuperTypes](https://github.com/orange-cloudavenue/terraform-plugin-framework-supertypes) is an plugin for Terraform Framework. The supertypes are custom types that are used to extend the functionality of the Terraform Plugin Framework.
-
-    ---
-
-    [:simple-readthedocs: Documentation](#){ .md-button .md-button--project }
 
 - :simple-kubernetes:{ .lg .middle .kubernetes } __Kube Image Updater__
 
