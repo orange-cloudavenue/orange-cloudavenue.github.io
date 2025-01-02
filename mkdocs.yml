@@ -13,7 +13,7 @@ theme:
     - navigation.instant
   icon:
     repo: fontawesome/brands/github-alt
-  favicon: images/favicon.png
+  favicon: https://opensource.orange.com/wp-content/themes/boosted/favicon.ico
   logo: https://boosted.orange.com/docs/5.3/assets/brand/orange-logo.svg
   font: false
 
@@ -23,19 +23,15 @@ extra_css:
 
 plugins:
   - search
-  - multirepo:
-      cleanup: false
 
 nav:
   - Overview: "index.md"
-  - Terraform:
-    - SuperSchema: '!import https://github.com/orange-cloudavenue/terraform-plugin-framework-superschema?branch=main'
-    - PlanModifiers: '!import https://github.com/orange-cloudavenue/terraform-plugin-framework-planmodifiers?branch=main'
-    - Validators: '!import https://github.com/orange-cloudavenue/terraform-plugin-framework-validators?branch=main'
+  - Projects: "projects.md"
   - ⇗ Github: "https://github.com/orange-cloudavenue"
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - admonition
@@ -50,4 +46,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/orange-cloudavenue
   
-copyright: Copyright &copy; 2022 - 2025 Orange Business
+copyright: Copyright &copy; Orange 2025

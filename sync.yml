@@ -1,0 +1,9 @@
+group:
+  # Sync style of documentation
+  - files:
+      - source: docs/stylesheets/orange.css
+        dest: docs/stylesheets/orange.css
+    repos: |
+      orange-cloudavenue/terraform-plugin-framework-validators
+      orange-cloudavenue/terraform-plugin-framework-planmodifiers
+      orange-cloudavenue/terraform-plugin-framework-superschema

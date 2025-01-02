@@ -28,6 +28,10 @@
     color: rgb(92, 78, 229);
 }
 
+.kubernetes {
+    color: #326CE5;
+}
+
 .md-tabs__item {
     font-weight: 800;
 }
@@ -39,4 +43,12 @@
 .md-tabs__item .md-tabs__link:hover {
     color: var(--md-accent-fg-color);
     opacity: 1;
+}
+
+.md-typeset .md-button:hover {
+    background-color: var(--md-primary-bg-color);
+}
+
+.md-typeset .md-button--project {
+    padding: .325em 0.9em;
 }
